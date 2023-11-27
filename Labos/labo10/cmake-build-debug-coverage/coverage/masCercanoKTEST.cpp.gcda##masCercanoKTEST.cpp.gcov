@@ -1,0 +1,546 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/tests/masCercanoKTEST.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/masCercanoKTEST.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/masCercanoKTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../ejercicios.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:
+    #####:    4:TEST(masCercanoK, unoDeDiferencia){
+    #####:    5:	vector<int> v = {16,17,18};
+    #####:    6:	int x = 17;
+    #####:    7:	int k = 1;
+    #####:    8:	vector<int> res = masCercanoK(v, k, x);
+    #####:    9:	vector<int> expected = {16};
+    #####:   10:	ASSERT_EQ(expected, res);
+    #####:   11:}
+------------------
+_ZN32masCercanoK_unoDeDiferencia_Test8TestBodyEv:
+function _ZN32masCercanoK_unoDeDiferencia_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:    4:TEST(masCercanoK, unoDeDiferencia){
+    #####:    5:	vector<int> v = {16,17,18};
+    %%%%%:    5-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    5-block  1
+    $$$$$:    5-block  2
+    #####:    6:	int x = 17;
+    #####:    7:	int k = 1;
+    #####:    8:	vector<int> res = masCercanoK(v, k, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    8-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:    8-block  1
+    #####:    9:	vector<int> expected = {16};
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    9-block  0
+    $$$$$:    9-block  1
+    #####:   10:	ASSERT_EQ(expected, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   10-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   10-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   10-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   10-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   10-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   10-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   10-block  6
+    %%%%%:   10-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   10-block  8
+call   23 never executed
+    $$$$$:   10-block  9
+    $$$$$:   10-block 10
+call   24 never executed
+    $$$$$:   10-block 11
+    $$$$$:   10-block 12
+call   25 never executed
+    #####:   11:}
+    %%%%%:   11-block  0
+    %%%%%:   11-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   11-block  2
+    %%%%%:   11-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   11-block  4
+    %%%%%:   11-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   11-block  6
+call    9 never executed
+    $$$$$:   11-block  7
+call   10 never executed
+    $$$$$:   11-block  8
+call   11 never executed
+------------------
+_ZN32masCercanoK_unoDeDiferencia_TestC2Ev:
+function _ZN32masCercanoK_unoDeDiferencia_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:    4:TEST(masCercanoK, unoDeDiferencia){
+    %%%%%:    4-block  0
+call    0 never executed
+------------------
+        -:   12:
+    #####:   13:TEST(masCercanoK, ordenAsc){
+    #####:   14:	vector<int> v = {16,17,19,21,22,23};
+    #####:   15:	int x = 18;
+    #####:   16:	int k = 3;
+    #####:   17:	vector<int> res = masCercanoK(v, k, x);
+    #####:   18:	vector<int> expected = {16,17,19};
+    #####:   19:	ASSERT_EQ(expected, res);
+    #####:   20:}
+------------------
+_ZN25masCercanoK_ordenAsc_Test8TestBodyEv:
+function _ZN25masCercanoK_ordenAsc_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   13:TEST(masCercanoK, ordenAsc){
+    #####:   14:	vector<int> v = {16,17,19,21,22,23};
+    %%%%%:   14-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   14-block  1
+    $$$$$:   14-block  2
+    #####:   15:	int x = 18;
+    #####:   16:	int k = 3;
+    #####:   17:	vector<int> res = masCercanoK(v, k, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   17-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   17-block  1
+    #####:   18:	vector<int> expected = {16,17,19};
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   18-block  0
+    $$$$$:   18-block  1
+    #####:   19:	ASSERT_EQ(expected, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   19-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   19-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   19-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   19-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   19-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   19-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   19-block  6
+    %%%%%:   19-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   19-block  8
+call   23 never executed
+    $$$$$:   19-block  9
+    $$$$$:   19-block 10
+call   24 never executed
+    $$$$$:   19-block 11
+    $$$$$:   19-block 12
+call   25 never executed
+    #####:   20:}
+    %%%%%:   20-block  0
+    %%%%%:   20-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   20-block  2
+    %%%%%:   20-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   20-block  4
+    %%%%%:   20-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   20-block  6
+call    9 never executed
+    $$$$$:   20-block  7
+call   10 never executed
+    $$$$$:   20-block  8
+call   11 never executed
+------------------
+_ZN25masCercanoK_ordenAsc_TestC2Ev:
+function _ZN25masCercanoK_ordenAsc_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   13:TEST(masCercanoK, ordenAsc){
+    %%%%%:   13-block  0
+call    0 never executed
+------------------
+        -:   21:
+    #####:   22:TEST(masCercanoK, ordenDesc){
+    #####:   23:	vector<int> v = {35,30,28,26,24,17,8};
+    #####:   24:	int x = 18;
+    #####:   25:	int k = 4;
+    #####:   26:	vector<int> res = masCercanoK(v, k, x);
+    #####:   27:	vector<int> expected = {8,17,24,26};
+    #####:   28:	ASSERT_EQ(expected, res);
+    #####:   29:}
+------------------
+_ZN26masCercanoK_ordenDesc_Test8TestBodyEv:
+function _ZN26masCercanoK_ordenDesc_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   22:TEST(masCercanoK, ordenDesc){
+    #####:   23:	vector<int> v = {35,30,28,26,24,17,8};
+    %%%%%:   23-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   23-block  1
+    $$$$$:   23-block  2
+    #####:   24:	int x = 18;
+    #####:   25:	int k = 4;
+    #####:   26:	vector<int> res = masCercanoK(v, k, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   26-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   26-block  1
+    #####:   27:	vector<int> expected = {8,17,24,26};
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   27-block  0
+    $$$$$:   27-block  1
+    #####:   28:	ASSERT_EQ(expected, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   28-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   28-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   28-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   28-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   28-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   28-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   28-block  6
+    %%%%%:   28-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   28-block  8
+call   23 never executed
+    $$$$$:   28-block  9
+    $$$$$:   28-block 10
+call   24 never executed
+    $$$$$:   28-block 11
+    $$$$$:   28-block 12
+call   25 never executed
+    #####:   29:}
+    %%%%%:   29-block  0
+    %%%%%:   29-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   29-block  2
+    %%%%%:   29-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   29-block  4
+    %%%%%:   29-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   29-block  6
+call    9 never executed
+    $$$$$:   29-block  7
+call   10 never executed
+    $$$$$:   29-block  8
+call   11 never executed
+------------------
+_ZN26masCercanoK_ordenDesc_TestC2Ev:
+function _ZN26masCercanoK_ordenDesc_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   22:TEST(masCercanoK, ordenDesc){
+    %%%%%:   22-block  0
+call    0 never executed
+------------------
+        -:   30:
+    #####:   31:TEST(masCercanoK, enVector){
+    #####:   32:	vector<int> v = {35,30,28,26,24,17,8};
+    #####:   33:	int x = 30;
+    #####:   34:	int k = 1;
+    #####:   35:	vector<int> res = masCercanoK(v, k, x);
+    #####:   36:	vector<int> expected = {28};
+    #####:   37:	ASSERT_EQ(expected, res);
+    #####:   38:}
+------------------
+_ZN25masCercanoK_enVector_Test8TestBodyEv:
+function _ZN25masCercanoK_enVector_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   31:TEST(masCercanoK, enVector){
+    #####:   32:	vector<int> v = {35,30,28,26,24,17,8};
+    %%%%%:   32-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   32-block  1
+    $$$$$:   32-block  2
+    #####:   33:	int x = 30;
+    #####:   34:	int k = 1;
+    #####:   35:	vector<int> res = masCercanoK(v, k, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   35-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   35-block  1
+    #####:   36:	vector<int> expected = {28};
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   36-block  0
+    $$$$$:   36-block  1
+    #####:   37:	ASSERT_EQ(expected, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   37-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   37-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   37-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   37-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   37-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   37-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   37-block  6
+    %%%%%:   37-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   37-block  8
+call   23 never executed
+    $$$$$:   37-block  9
+    $$$$$:   37-block 10
+call   24 never executed
+    $$$$$:   37-block 11
+    $$$$$:   37-block 12
+call   25 never executed
+    #####:   38:}
+    %%%%%:   38-block  0
+    %%%%%:   38-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   38-block  2
+    %%%%%:   38-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   38-block  4
+    %%%%%:   38-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   38-block  6
+call    9 never executed
+    $$$$$:   38-block  7
+call   10 never executed
+    $$$$$:   38-block  8
+call   11 never executed
+------------------
+_ZN25masCercanoK_enVector_TestC2Ev:
+function _ZN25masCercanoK_enVector_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   31:TEST(masCercanoK, enVector){
+    %%%%%:   31-block  0
+call    0 never executed
+------------------
+        -:   39:
+    #####:   40:TEST(masCercanoK, pideMasDeLosQueHay){
+    #####:   41:	vector<int> v = {24,17,8};
+    #####:   42:	int x = 30;
+    #####:   43:	int k = 4;
+    #####:   44:	vector<int> res = masCercanoK(v, k, x);
+    #####:   45:	vector<int> expected = {8,17,24};
+    #####:   46:	ASSERT_EQ(expected, res);
+    #####:   47:}
+------------------
+_ZN35masCercanoK_pideMasDeLosQueHay_Test8TestBodyEv:
+function _ZN35masCercanoK_pideMasDeLosQueHay_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   40:TEST(masCercanoK, pideMasDeLosQueHay){
+    #####:   41:	vector<int> v = {24,17,8};
+    %%%%%:   41-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   41-block  1
+    $$$$$:   41-block  2
+    #####:   42:	int x = 30;
+    #####:   43:	int k = 4;
+    #####:   44:	vector<int> res = masCercanoK(v, k, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   44-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:   44-block  1
+    #####:   45:	vector<int> expected = {8,17,24};
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   45-block  0
+    $$$$$:   45-block  1
+    #####:   46:	ASSERT_EQ(expected, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   46-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   46-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   46-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   46-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   46-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   46-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   46-block  6
+    %%%%%:   46-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   46-block  8
+call   23 never executed
+    $$$$$:   46-block  9
+    $$$$$:   46-block 10
+call   24 never executed
+    $$$$$:   46-block 11
+    $$$$$:   46-block 12
+call   25 never executed
+    #####:   47:}
+    %%%%%:   47-block  0
+    %%%%%:   47-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   47-block  2
+    %%%%%:   47-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   47-block  4
+    %%%%%:   47-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   47-block  6
+call    9 never executed
+    $$$$$:   47-block  7
+call   10 never executed
+    $$$$$:   47-block  8
+call   11 never executed
+------------------
+_ZN35masCercanoK_pideMasDeLosQueHay_TestC2Ev:
+function _ZN35masCercanoK_pideMasDeLosQueHay_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   40:TEST(masCercanoK, pideMasDeLosQueHay){
+    %%%%%:   40-block  0
+call    0 never executed
+------------------

@@ -1,0 +1,11 @@
+# ninja log v5
+760	939	6887028840000000	../laboCiclos.exe	cb9d91a7fe39a427
+569	658	1667096129764761737	laboCiclos	416ef7787d6c7c3c
+1	508	1667096129596758365	CMakeFiles/laboCiclos.dir/main.cpp.o	c11e3641e79db648
+0	569	1667096129676759972	CMakeFiles/laboCiclos.dir/cases.cpp.o	3d60a8f08bf49a9e
+2	111	1667096142169062168	../laboCiclos	ed0100e454fce723
+0	261	1667096129368753790	CMakeFiles/laboCiclos.dir/ejercicios.cpp.o	2e913e56111d744e
+2	320	1681995585201940791	CMakeFiles/laboCiclos.dir/ejercicios.cpp.o	bf4b1f3c2d3ae7a4
+2	650	1681995585537948439	CMakeFiles/laboCiclos.dir/main.cpp.o	bd34cd1c82c1be90
+1	845	1681995585729952808	CMakeFiles/laboCiclos.dir/cases.cpp.o	c7bc764451da5c18
+845	962	1681995585845955448	/home/mateo/Escritorio/Carrera/LaboAlgo1/labo05/laboCiclos	63bac6958e469324

@@ -1,0 +1,486 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/ejercicios.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/ejercicios.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/ejercicios.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "ejercicios.h"
+        -:    2:#include "time.h"
+        -:    3:#include <ctime>
+        -:    4:#include "stdlib.h"
+        -:    5:#include <string>
+        -:    6:#include<iostream>
+        -:    7:#include <cmath>
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+function _Z15busquedaBinariaSt6vectorIiSaIiEEi called 0 returned 0% blocks executed 0%
+    #####:   11:int busquedaBinaria(vector<int> v, int x) {
+    #####:   12:    int low = 0, high = v.size() - 1;
+    %%%%%:   12-block  0
+call    0 never executed
+    #####:   13:    while(low <= high) {
+    %%%%%:   13-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   14:        int mid = low + (high - low)/2;
+    #####:   15:        if(v[mid] == x)
+    %%%%%:   15-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   16:            return mid;
+    %%%%%:   16-block  0
+    #####:   17:        if(v[mid] < x)
+    %%%%%:   17-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   18:            low = mid + 1;
+    %%%%%:   18-block  0
+        -:   19:        else
+    #####:   20:            high = mid - 1;
+    %%%%%:   20-block  0
+        -:   21:    }
+    #####:   22:    return -1;
+    %%%%%:   22-block  0
+        -:   23:}
+        -:   24:
+function _Z18busquedaJumpSearchSt6vectorIiSaIiEEi called 0 returned 0% blocks executed 0%
+    #####:   25:int busquedaJumpSearch(vector<int> v, int x) {
+    #####:   26:    int m = sqrt(v.size());
+    %%%%%:   26-block  0
+call    0 never executed
+call    1 never executed
+    #####:   27:    int i = 0;
+    #####:   28:    while (v[i] != x) {
+    %%%%%:   28-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   29:        if (i < v.size()) {
+    %%%%%:   29-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   30:            if (v[i] < x)
+    %%%%%:   30-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   31:                i = i + m;
+    %%%%%:   31-block  0
+    #####:   32:            else if (v[i] > x) {
+    %%%%%:   32-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   33:                for (int j = i - m; j < i; ++j) {
+    %%%%%:   33-block  0
+    %%%%%:   33-block  1
+    %%%%%:   33-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   34:                    if (v[j] == x)
+    %%%%%:   34-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   35:                        return j;
+    %%%%%:   35-block  0
+        -:   36:                }
+        -:   37:            }
+        -:   38:        }
+    #####:   39:        for (int j = i - m; j < v.size(); ++j) {
+    %%%%%:   39-block  0
+    %%%%%:   39-block  1
+    %%%%%:   39-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   40:            if (v[j] == x)
+    %%%%%:   40-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   41:                return j;
+    %%%%%:   41-block  0
+        -:   42:        }
+    #####:   43:        return -1;
+    %%%%%:   43-block  0
+        -:   44:    }
+    #####:   45:	return i;
+    %%%%%:   45-block  0
+        -:   46:}
+        -:   47:
+function _Z6buscarSt6vectorIiSaIiEEi called 0 returned 0% blocks executed 0%
+    #####:   48:int buscar(vector<int> v, int x){
+    #####:   49:    return busquedaBinaria(v, x);
+    %%%%%:   49-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+        -:   50:    //return busquedaJumpSearch(v, x);
+        -:   51:}
+        -:   52:
+function _Z21medirTiemposBusquedasv called 0 returned 0% blocks executed 0%
+    #####:   53:void medirTiemposBusquedas() {
+    #####:   54:    for (int i = 100; i <= 100000; i = 10 * i) {
+    %%%%%:   54-block  0
+    %%%%%:   54-block  1
+branch  0 never executed
+branch  1 never executed
+        -:   55:
+    #####:   56:        cout << "###   n = " << i << "   ###" << endl;
+    %%%%%:   56-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   56-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   56-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   56-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+        -:   57:
+    #####:   58:        vector<int> v = construir_vector(i, "azar");
+    %%%%%:   58-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   58-block  1
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+call    7 never executed
+    $$$$$:   58-block  2
+    $$$$$:   58-block  3
+        -:   59:
+        -:   60:        time_t t;
+    #####:   61:        srand((unsigned) time(&t));
+call    0 never executed
+call    1 never executed
+        -:   62:
+    #####:   63:        clock_t begin = clock();
+call    0 never executed
+    #####:   64:        int j = busquedaBinaria(v, rand() % i);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   64-block  0
+call    4 never executed
+call    5 never executed
+    #####:   65:        clock_t end = clock();
+call    0 never executed
+    #####:   66:        double elapsed_msecs = double(end - begin) / CLOCKS_PER_SEC  * 1000; // mide el tiempo en ms
+    #####:   67:        cout << "Busqueda Binaria: " << elapsed_msecs << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   67-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   67-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+        -:   68:
+    #####:   69:        begin = clock();
+    %%%%%:   69-block  0
+call    0 never executed
+    #####:   70:        j = busquedaJumpSearch(v, rand() % i);
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   70-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:   70-block  1
+call    7 never executed
+    $$$$$:   70-block  2
+call    8 never executed
+    $$$$$:   70-block  3
+    #####:   71:        end = clock();
+call    0 never executed
+    #####:   72:        elapsed_msecs = double(end - begin) / CLOCKS_PER_SEC  * 1000; // mide el tiempo en ms
+    #####:   73:        cout << "Busqueda Jump: " << elapsed_msecs << endl;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   73-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   73-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    #####:   74:    }
+    %%%%%:   74-block  0
+call    0 never executed
+    $$$$$:   74-block  1
+call    1 never executed
+    #####:   75:}
+    %%%%%:   75-block  0
+        -:   76:
+function _Z29ejemplo_como_calcular_tiemposv called 0 returned 0% blocks executed 0%
+    #####:   77:double ejemplo_como_calcular_tiempos() {
+    #####:   78:    clock_t begin = clock();
+    %%%%%:   78-block  0
+call    0 never executed
+        -:   79:
+    #####:   80:    for(int i=0 ; i < 100000; i++){
+    %%%%%:   80-block  0
+    %%%%%:   80-block  1
+branch  0 never executed
+branch  1 never executed
+        -:   81:        // nada
+        -:   82:    }
+        -:   83:
+    #####:   84:    clock_t end = clock();
+    %%%%%:   84-block  0
+call    0 never executed
+    #####:   85:    double elapsed_msecs = double(end - begin) / CLOCKS_PER_SEC  * 1000; // mide el tiempo en milisegundos
+    #####:   86:    return elapsed_msecs;
+        -:   87:}
+        -:   88:
+function _Z16construir_vectoriNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:   89:vector<int> construir_vector(int size, string mode){
+    #####:   90:    vector<int> res {};
+    %%%%%:   90-block  0
+call    0 never executed
+        -:   91:    time_t t;
+    #####:   92:    srand((unsigned) time(&t));
+call    0 never executed
+call    1 never executed
+    #####:   93:    int base = rand() % 100;
+call    0 never executed
+        -:   94:    int step;
+    #####:   95:    for(int i = 0; i < size; i++){
+    %%%%%:   95-block  0
+    %%%%%:   95-block  1
+branch  0 never executed
+branch  1 never executed
+    #####:   96:        step = rand() % 100;
+    %%%%%:   96-block  0
+call    0 never executed
+    #####:   97:        if(mode == "asc") {
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   98:            res.push_back(base+step);
+    %%%%%:   98-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   98-block  1
+    #####:   99:            base += step;
+    %%%%%:   99-block  0
+        -:  100:        }
+    #####:  101:        if(mode == "desc"){
+    %%%%%:  101-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  102:            res.push_back(base-step);
+    %%%%%:  102-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  102-block  1
+    #####:  103:            base -= step;
+    %%%%%:  103-block  0
+        -:  104:        }
+    #####:  105:        if(mode == "azar"){
+    %%%%%:  105-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  106:            res.push_back(step);
+    %%%%%:  106-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  107:        }
+    #####:  108:        if(mode == "iguales"){
+    %%%%%:  108-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  109:            res.push_back(base);
+    %%%%%:  109-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  110:        }
+        -:  111:    }
+    #####:  112:    return res;
+    %%%%%:  112-block  0
+    %%%%%:  112-block  1
+    =====:  113:}
+    $$$$$:  113-block  0
+call    0 never executed
+        -:  114:
+function _Z10indicePicoSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:  115:int indicePico(vector<int> v){
+    #####:  116:    if (v.size() == 1)
+    %%%%%:  116-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  117:        return 0;
+    %%%%%:  117-block  0
+    #####:  118:    else if(v.size() == 2) {
+    %%%%%:  118-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  119:        if (v[0] >= v[1])
+    %%%%%:  119-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  120:            return 0;
+    %%%%%:  120-block  0
+    #####:  121:        else if (v[0] <= v[1])
+    %%%%%:  121-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  122:            return 1;
+    %%%%%:  122-block  0
+        -:  123:    } else {
+    #####:  124:        for (int i = 1; i < v.size() - 1; i++) {
+    %%%%%:  124-block  0
+    %%%%%:  124-block  1
+    %%%%%:  124-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  125:            if (v[i] >= v[i - 1] && v[i] >= v[i + 1])
+    %%%%%:  125-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  125-block  1
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  125-block  2
+    %%%%%:  125-block  3
+    %%%%%:  125-block  4
+branch  8 never executed
+branch  9 never executed
+    #####:  126:                return i;
+    %%%%%:  126-block  0
+    #####:  127:        } if (v[v.size() - 1] >= v[v.size() - 2])
+    %%%%%:  127-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  128:            return v.size() - 1;
+    %%%%%:  128-block  0
+call    0 never executed
+        -:  129:    }
+    #####:  130:	return -1;
+    %%%%%:  130-block  0
+        -:  131:}
+        -:  132:
+function _Z9puntoFijoSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:  133:int puntoFijo(vector<int> v){
+        -:  134:    /*
+        -:  135:    for (int i = 0; i < v.size(); ++i) {
+        -:  136:        if(v[i] == i)
+        -:  137:            return i;
+        -:  138:    }
+        -:  139:    return -1; */
+        -:  140:
+    #####:  141:    int low = 0, high = v.size() - 1;
+    %%%%%:  141-block  0
+call    0 never executed
+    #####:  142:    while(low <= high) {
+    %%%%%:  142-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  143:        int mid = low + (high - low)/2;
+    #####:  144:        if(v[mid] == mid)
+    %%%%%:  144-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  145:            return mid;
+    %%%%%:  145-block  0
+    #####:  146:        if(v[mid] < mid) {
+    %%%%%:  146-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  147:            low = mid + 1;
+    #####:  148:            if (v[low] == low)
+    %%%%%:  148-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  149:                return low;
+    %%%%%:  149-block  0
+        -:  150:        }
+        -:  151:        else
+    #####:  152:            high = mid - 1;
+    %%%%%:  152-block  0
+        -:  153:    }
+    #####:  154:    return -1;
+    %%%%%:  154-block  0
+        -:  155:}
+        -:  156:
+function _Z15encontrarRotadoSt6vectorIiSaIiEEi called 0 returned 0% blocks executed 0%
+    #####:  157:int encontrarRotado(vector<int> v, int x){
+    #####:  158:	return -1;
+    %%%%%:  158-block  0
+        -:  159:}
+        -:  160:
+function _Z14menorMasGrandeSt6vectorIiSaIiEEi called 0 returned 0% blocks executed 0%
+    #####:  161:int menorMasGrande(vector<int> v, int x){
+        -:  162: // Buscar manera de hacer algo similar a la busqueda binaria.
+        -:  163:
+    #####:  164:    for (int i = 0; i < v.size(); ++i) {
+    %%%%%:  164-block  0
+    %%%%%:  164-block  1
+    %%%%%:  164-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  165:        if(v[i] > x)
+    %%%%%:  165-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  166:            return i;
+    %%%%%:  166-block  0
+        -:  167:    }
+    #####:  168:    return -1;
+    %%%%%:  168-block  0
+        -:  169:}
+        -:  170:
+        -:  171:
+function _Z11masCercanoKSt6vectorIiSaIiEEii called 0 returned 0% blocks executed 0%
+    #####:  172:vector<int> masCercanoK(vector<int> v, int k,  int x){
+    #####:  173:	return {};
+    %%%%%:  173-block  0
+call    0 never executed
+        -:  174:}

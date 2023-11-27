@@ -1,0 +1,5 @@
+# ninja log v5
+698	792	1665154405632477780	../laboDebugging	82a94f3be37b3531
+1	698	1665154405536477455	CMakeFiles/laboDebugging.dir/ejercicios.cpp.o	15b0df85e13c50ec
+0	669	1664639046008990491	CMakeFiles/laboDebugging.dir/main.cpp.o	94b35cb0040536f0
+1	984	1664664349873835394	CMakeFiles/laboDebugging.dir/cases.cpp.o	cb55bee38b401ac8

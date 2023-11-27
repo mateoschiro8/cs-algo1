@@ -1,0 +1,3 @@
+/home/mateo/Escritorio/Carrera/LaboAlgo1/labo05/cmake-build-debug/CMakeFiles/laboCiclos.dir
+/home/mateo/Escritorio/Carrera/LaboAlgo1/labo05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateo/Escritorio/Carrera/LaboAlgo1/labo05/cmake-build-debug/CMakeFiles/rebuild_cache.dir

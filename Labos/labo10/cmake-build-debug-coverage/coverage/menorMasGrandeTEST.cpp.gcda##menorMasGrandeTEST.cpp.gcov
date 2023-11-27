@@ -1,0 +1,363 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/tests/menorMasGrandeTEST.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/menorMasGrandeTEST.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/menorMasGrandeTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../ejercicios.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:
+        -:    4:
+    #####:    5:TEST(menorMasGrande, unElemento){
+    #####:    6:	vector<int> v = {20};
+    #####:    7:	int x = 20;
+    #####:    8:	int res = menorMasGrande(v,x);
+    #####:    9:	ASSERT_EQ(-1, res);
+    #####:   10:}
+------------------
+_ZN30menorMasGrande_unElemento_Test8TestBodyEv:
+function _ZN30menorMasGrande_unElemento_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:    5:TEST(menorMasGrande, unElemento){
+    #####:    6:	vector<int> v = {20};
+    %%%%%:    6-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    6-block  1
+    $$$$$:    6-block  2
+    #####:    7:	int x = 20;
+    #####:    8:	int res = menorMasGrande(v,x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    8-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    8-block  1
+call    6 never executed
+    $$$$$:    8-block  2
+call    7 never executed
+    $$$$$:    8-block  3
+    #####:    9:	ASSERT_EQ(-1, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    9-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    9-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:    9-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:    9-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:    9-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:    9-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:    9-block  6
+    %%%%%:    9-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:    9-block  8
+    $$$$$:    9-block  9
+call   23 never executed
+    $$$$$:    9-block 10
+    $$$$$:    9-block 11
+call   24 never executed
+    $$$$$:    9-block 12
+    $$$$$:    9-block 13
+call   25 never executed
+    #####:   10:}
+    %%%%%:   10-block  0
+    %%%%%:   10-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   10-block  2
+call    3 never executed
+------------------
+_ZN30menorMasGrande_unElemento_TestC2Ev:
+function _ZN30menorMasGrande_unElemento_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:    5:TEST(menorMasGrande, unElemento){
+    %%%%%:    5-block  0
+call    0 never executed
+------------------
+        -:   11:
+    #####:   12:TEST(menorMasGrande, noHayMasGrande){
+    #####:   13:	vector<int> v = {18,19,31,46,47,48};
+    #####:   14:	int x = 49;
+    #####:   15:	int res = menorMasGrande(v,x);
+    #####:   16:	ASSERT_EQ(-1, res);
+    #####:   17:}
+------------------
+_ZN34menorMasGrande_noHayMasGrande_Test8TestBodyEv:
+function _ZN34menorMasGrande_noHayMasGrande_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   12:TEST(menorMasGrande, noHayMasGrande){
+    #####:   13:	vector<int> v = {18,19,31,46,47,48};
+    %%%%%:   13-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   13-block  1
+    $$$$$:   13-block  2
+    #####:   14:	int x = 49;
+    #####:   15:	int res = menorMasGrande(v,x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   15-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   15-block  1
+call    6 never executed
+    $$$$$:   15-block  2
+call    7 never executed
+    $$$$$:   15-block  3
+    #####:   16:	ASSERT_EQ(-1, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   16-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   16-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   16-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   16-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   16-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   16-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   16-block  6
+    %%%%%:   16-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   16-block  8
+    $$$$$:   16-block  9
+call   23 never executed
+    $$$$$:   16-block 10
+    $$$$$:   16-block 11
+call   24 never executed
+    $$$$$:   16-block 12
+    $$$$$:   16-block 13
+call   25 never executed
+    #####:   17:}
+    %%%%%:   17-block  0
+    %%%%%:   17-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   17-block  2
+call    3 never executed
+------------------
+_ZN34menorMasGrande_noHayMasGrande_TestC2Ev:
+function _ZN34menorMasGrande_noHayMasGrande_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   12:TEST(menorMasGrande, noHayMasGrande){
+    %%%%%:   12-block  0
+call    0 never executed
+------------------
+        -:   18:
+    #####:   19:TEST(menorMasGrande, variosSeguidos){
+    #####:   20:	vector<int> v = {17,19,31,46,47,48};
+    #####:   21:	int x = 45;
+    #####:   22:	int res = menorMasGrande(v,x);
+    #####:   23:	ASSERT_EQ(3, res);
+    #####:   24:}
+------------------
+_ZN34menorMasGrande_variosSeguidos_Test8TestBodyEv:
+function _ZN34menorMasGrande_variosSeguidos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   19:TEST(menorMasGrande, variosSeguidos){
+    #####:   20:	vector<int> v = {17,19,31,46,47,48};
+    %%%%%:   20-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   20-block  1
+    $$$$$:   20-block  2
+    #####:   21:	int x = 45;
+    #####:   22:	int res = menorMasGrande(v,x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   22-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   22-block  1
+call    6 never executed
+    $$$$$:   22-block  2
+call    7 never executed
+    $$$$$:   22-block  3
+    #####:   23:	ASSERT_EQ(3, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   23-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   23-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   23-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   23-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   23-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   23-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   23-block  6
+    %%%%%:   23-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   23-block  8
+    $$$$$:   23-block  9
+call   23 never executed
+    $$$$$:   23-block 10
+    $$$$$:   23-block 11
+call   24 never executed
+    $$$$$:   23-block 12
+    $$$$$:   23-block 13
+call   25 never executed
+    #####:   24:}
+    %%%%%:   24-block  0
+    %%%%%:   24-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   24-block  2
+call    3 never executed
+------------------
+_ZN34menorMasGrande_variosSeguidos_TestC2Ev:
+function _ZN34menorMasGrande_variosSeguidos_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   19:TEST(menorMasGrande, variosSeguidos){
+    %%%%%:   19-block  0
+call    0 never executed
+------------------
+        -:   25:
+    #####:   26:TEST(menorMasGrande, elMenor){
+    #####:   27:	vector<int> v = {17,19,31,46,47,48};
+    #####:   28:	int x = 2;
+    #####:   29:	int res = menorMasGrande(v,x);
+    #####:   30:	ASSERT_EQ(0, res);
+    #####:   31:}
+------------------
+_ZN27menorMasGrande_elMenor_Test8TestBodyEv:
+function _ZN27menorMasGrande_elMenor_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   26:TEST(menorMasGrande, elMenor){
+    #####:   27:	vector<int> v = {17,19,31,46,47,48};
+    %%%%%:   27-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   27-block  1
+    $$$$$:   27-block  2
+    #####:   28:	int x = 2;
+    #####:   29:	int res = menorMasGrande(v,x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   29-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   29-block  1
+call    6 never executed
+    $$$$$:   29-block  2
+call    7 never executed
+    $$$$$:   29-block  3
+    #####:   30:	ASSERT_EQ(0, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   30-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   30-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   30-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   30-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   30-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   30-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   30-block  6
+    %%%%%:   30-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   30-block  8
+    $$$$$:   30-block  9
+call   23 never executed
+    $$$$$:   30-block 10
+    $$$$$:   30-block 11
+call   24 never executed
+    $$$$$:   30-block 12
+    $$$$$:   30-block 13
+call   25 never executed
+    #####:   31:}
+    %%%%%:   31-block  0
+    %%%%%:   31-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   31-block  2
+call    3 never executed
+------------------
+_ZN27menorMasGrande_elMenor_TestC2Ev:
+function _ZN27menorMasGrande_elMenor_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   26:TEST(menorMasGrande, elMenor){
+    %%%%%:   26-block  0
+call    0 never executed
+------------------

@@ -1,0 +1,11 @@
+# ninja log v5
+1	1263	1667328841925172902	CMakeFiles/strings.dir/src/risas.cpp.o	f35e6ce9a8267d73
+1264	3652	1667328844313105682	CMakeFiles/strings.dir/tests/risasTEST.cpp.o	f2c37c7337a10d17
+745	1146	1667345841219114628	../strings	5c7584ad076f5b02
+1	4177	1667328870983597342	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	fa4ac8f16bc40490
+3653	5538	1667328846203094069	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	e5d21a475ad7b8e
+4177	4248	1667328871051490526	lib/googletest-master/googlemock/gtest/libgtestd.a	1408620272ddbe57
+2	744	1667345840819101261	CMakeFiles/strings.dir/src/ejercicios.cpp.o	5e822ff33c1d1d97
+4248	4256	1667328871067465590	lib/googletest-master/googlemock/gtest/libgtest_maind.a	7bf5672b10eb1d67
+0	3011	1667328843675208949	CMakeFiles/strings.dir/main.cpp.o	3dad20928ea78534
+2	2125	1667341928082428853	CMakeFiles/strings.dir/tests/tests.cpp.o	c6bc441602ea7a53

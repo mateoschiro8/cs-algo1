@@ -1,0 +1,561 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/tests/buscarTEST.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/buscarTEST.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/buscarTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../ejercicios.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:#include <string>
+        -:    4:
+        -:    5:
+    #####:    6:TEST(buscar, unElemento){
+    #####:    7:	vector<int> v = {8};
+    #####:    8:	int x = 8;
+    #####:    9:	int res =  buscar(v, x);
+    #####:   10:	ASSERT_EQ(0, res);
+    #####:   11:}
+------------------
+_ZN22buscar_unElemento_Test8TestBodyEv:
+function _ZN22buscar_unElemento_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:    6:TEST(buscar, unElemento){
+    #####:    7:	vector<int> v = {8};
+    %%%%%:    7-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    7-block  1
+    $$$$$:    7-block  2
+    #####:    8:	int x = 8;
+    #####:    9:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    9-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    9-block  1
+call    6 never executed
+    $$$$$:    9-block  2
+call    7 never executed
+    $$$$$:    9-block  3
+    #####:   10:	ASSERT_EQ(0, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   10-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   10-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   10-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   10-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   10-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   10-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   10-block  6
+    %%%%%:   10-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   10-block  8
+    $$$$$:   10-block  9
+call   23 never executed
+    $$$$$:   10-block 10
+    $$$$$:   10-block 11
+call   24 never executed
+    $$$$$:   10-block 12
+    $$$$$:   10-block 13
+call   25 never executed
+    #####:   11:}
+    %%%%%:   11-block  0
+    %%%%%:   11-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   11-block  2
+call    3 never executed
+------------------
+_ZN22buscar_unElemento_TestC2Ev:
+function _ZN22buscar_unElemento_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:    6:TEST(buscar, unElemento){
+    %%%%%:    6-block  0
+call    0 never executed
+------------------
+        -:   12:
+    #####:   13:TEST(buscar, unElementoNoEsta){
+    #####:   14:	vector<int> v = {8};
+    #####:   15:	int x = 7;
+    #####:   16:	int res =  buscar(v, x);
+    #####:   17:	ASSERT_EQ(-1, res);
+    #####:   18:}
+------------------
+_ZN28buscar_unElementoNoEsta_Test8TestBodyEv:
+function _ZN28buscar_unElementoNoEsta_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   13:TEST(buscar, unElementoNoEsta){
+    #####:   14:	vector<int> v = {8};
+    %%%%%:   14-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   14-block  1
+    $$$$$:   14-block  2
+    #####:   15:	int x = 7;
+    #####:   16:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   16-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   16-block  1
+call    6 never executed
+    $$$$$:   16-block  2
+call    7 never executed
+    $$$$$:   16-block  3
+    #####:   17:	ASSERT_EQ(-1, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   17-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   17-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   17-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   17-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   17-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   17-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   17-block  6
+    %%%%%:   17-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   17-block  8
+    $$$$$:   17-block  9
+call   23 never executed
+    $$$$$:   17-block 10
+    $$$$$:   17-block 11
+call   24 never executed
+    $$$$$:   17-block 12
+    $$$$$:   17-block 13
+call   25 never executed
+    #####:   18:}
+    %%%%%:   18-block  0
+    %%%%%:   18-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   18-block  2
+call    3 never executed
+------------------
+_ZN28buscar_unElementoNoEsta_TestC2Ev:
+function _ZN28buscar_unElementoNoEsta_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   13:TEST(buscar, unElementoNoEsta){
+    %%%%%:   13-block  0
+call    0 never executed
+------------------
+        -:   19:/*
+        -:   20: *
+        -:   21: *  TEST COMENTADOS PORQUE NO ESTÁN ORDENADOS
+        -:   22:TEST(buscar, dosElementos){
+        -:   23:	vector<int> v = {8,6};
+        -:   24:	int x = 6;
+        -:   25:	int res =  buscar(v, x);
+        -:   26:	ASSERT_EQ(1, res);
+        -:   27:}
+        -:   28:
+        -:   29:TEST(buscar, variosDesc){
+        -:   30:	vector<int> v = {8,6,4,2,1,0};
+        -:   31:	int x = 1;
+        -:   32:	int res =  buscar(v, x);
+        -:   33:	ASSERT_EQ(4, res);
+        -:   34:}
+        -:   35:*/
+        -:   36:
+        -:   37:
+    #####:   38:TEST(buscar, variosAsc){
+    #####:   39:	vector<int> v = {10,15,16,48,52,79};
+    #####:   40:	int x = 48;
+    #####:   41:	int res =  buscar(v, x);
+    #####:   42:	ASSERT_EQ(3, res);
+    #####:   43:}
+------------------
+_ZN21buscar_variosAsc_Test8TestBodyEv:
+function _ZN21buscar_variosAsc_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   38:TEST(buscar, variosAsc){
+    #####:   39:	vector<int> v = {10,15,16,48,52,79};
+    %%%%%:   39-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   39-block  1
+    $$$$$:   39-block  2
+    #####:   40:	int x = 48;
+    #####:   41:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   41-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   41-block  1
+call    6 never executed
+    $$$$$:   41-block  2
+call    7 never executed
+    $$$$$:   41-block  3
+    #####:   42:	ASSERT_EQ(3, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   42-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   42-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   42-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   42-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   42-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   42-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   42-block  6
+    %%%%%:   42-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   42-block  8
+    $$$$$:   42-block  9
+call   23 never executed
+    $$$$$:   42-block 10
+    $$$$$:   42-block 11
+call   24 never executed
+    $$$$$:   42-block 12
+    $$$$$:   42-block 13
+call   25 never executed
+    #####:   43:}
+    %%%%%:   43-block  0
+    %%%%%:   43-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   43-block  2
+call    3 never executed
+------------------
+_ZN21buscar_variosAsc_TestC2Ev:
+function _ZN21buscar_variosAsc_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   38:TEST(buscar, variosAsc){
+    %%%%%:   38-block  0
+call    0 never executed
+------------------
+        -:   44:
+    #####:   45:TEST(buscar, alPrincipio){
+    #####:   46:	vector<int> v = {10,15,16,48,52,79};
+    #####:   47:	int x = 10;
+    #####:   48:	int res =  buscar(v, x);
+    #####:   49:	ASSERT_EQ(0, res);
+    #####:   50:}
+------------------
+_ZN23buscar_alPrincipio_Test8TestBodyEv:
+function _ZN23buscar_alPrincipio_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   45:TEST(buscar, alPrincipio){
+    #####:   46:	vector<int> v = {10,15,16,48,52,79};
+    %%%%%:   46-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   46-block  1
+    $$$$$:   46-block  2
+    #####:   47:	int x = 10;
+    #####:   48:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   48-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   48-block  1
+call    6 never executed
+    $$$$$:   48-block  2
+call    7 never executed
+    $$$$$:   48-block  3
+    #####:   49:	ASSERT_EQ(0, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   49-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   49-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   49-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   49-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   49-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   49-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   49-block  6
+    %%%%%:   49-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   49-block  8
+    $$$$$:   49-block  9
+call   23 never executed
+    $$$$$:   49-block 10
+    $$$$$:   49-block 11
+call   24 never executed
+    $$$$$:   49-block 12
+    $$$$$:   49-block 13
+call   25 never executed
+    #####:   50:}
+    %%%%%:   50-block  0
+    %%%%%:   50-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   50-block  2
+call    3 never executed
+------------------
+_ZN23buscar_alPrincipio_TestC2Ev:
+function _ZN23buscar_alPrincipio_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   45:TEST(buscar, alPrincipio){
+    %%%%%:   45-block  0
+call    0 never executed
+------------------
+        -:   51:
+    #####:   52:TEST(buscar, alFinal){
+    #####:   53:	vector<int> v = {10,15,16,48,52,79};
+    #####:   54:	int x = 79;
+    #####:   55:	int res =  buscar(v, x);
+    #####:   56:	ASSERT_EQ(5, res);
+    #####:   57:}
+------------------
+_ZN19buscar_alFinal_Test8TestBodyEv:
+function _ZN19buscar_alFinal_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   52:TEST(buscar, alFinal){
+    #####:   53:	vector<int> v = {10,15,16,48,52,79};
+    %%%%%:   53-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   53-block  1
+    $$$$$:   53-block  2
+    #####:   54:	int x = 79;
+    #####:   55:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   55-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   55-block  1
+call    6 never executed
+    $$$$$:   55-block  2
+call    7 never executed
+    $$$$$:   55-block  3
+    #####:   56:	ASSERT_EQ(5, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   56-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   56-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   56-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   56-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   56-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   56-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   56-block  6
+    %%%%%:   56-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   56-block  8
+    $$$$$:   56-block  9
+call   23 never executed
+    $$$$$:   56-block 10
+    $$$$$:   56-block 11
+call   24 never executed
+    $$$$$:   56-block 12
+    $$$$$:   56-block 13
+call   25 never executed
+    #####:   57:}
+    %%%%%:   57-block  0
+    %%%%%:   57-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   57-block  2
+call    3 never executed
+------------------
+_ZN19buscar_alFinal_TestC2Ev:
+function _ZN19buscar_alFinal_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   52:TEST(buscar, alFinal){
+    %%%%%:   52-block  0
+call    0 never executed
+------------------
+        -:   58:
+    #####:   59:TEST(buscar, noEsta){
+    #####:   60:	vector<int> v = {10,15,16,48,52,79};
+    #####:   61:	int x = 40;
+    #####:   62:	int res =  buscar(v, x);
+    #####:   63:	ASSERT_EQ(-1, res);
+    #####:   64:}
+------------------
+_ZN18buscar_noEsta_Test8TestBodyEv:
+function _ZN18buscar_noEsta_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   59:TEST(buscar, noEsta){
+    #####:   60:	vector<int> v = {10,15,16,48,52,79};
+    %%%%%:   60-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   60-block  1
+    $$$$$:   60-block  2
+    #####:   61:	int x = 40;
+    #####:   62:	int res =  buscar(v, x);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   62-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   62-block  1
+call    6 never executed
+    $$$$$:   62-block  2
+call    7 never executed
+    $$$$$:   62-block  3
+    #####:   63:	ASSERT_EQ(-1, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   63-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   63-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   63-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   63-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   63-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   63-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   63-block  6
+    %%%%%:   63-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   63-block  8
+    $$$$$:   63-block  9
+call   23 never executed
+    $$$$$:   63-block 10
+    $$$$$:   63-block 11
+call   24 never executed
+    $$$$$:   63-block 12
+    $$$$$:   63-block 13
+call   25 never executed
+    #####:   64:}
+    %%%%%:   64-block  0
+    %%%%%:   64-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   64-block  2
+call    3 never executed
+------------------
+_ZN18buscar_noEsta_TestC2Ev:
+function _ZN18buscar_noEsta_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   59:TEST(buscar, noEsta){
+    %%%%%:   59-block  0
+call    0 never executed
+------------------
+        -:   65:

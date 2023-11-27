@@ -1,0 +1,474 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/main.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/main.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include "gtest/gtest.h"
+        -:    3:#include "ejercicios.h"
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+function _Z4swapRSt6vectorIiSaIiEEii called 0 returned 0% blocks executed 0%
+    #####:    7:void swap(vector<int> &v, int i, int j) {
+    #####:    8:    int temp = v[i];
+    %%%%%:    8-block  0
+call    0 never executed
+    #####:    9:    v[i] = v[j];
+call    0 never executed
+call    1 never executed
+    #####:   10:    v[j] = temp;
+call    0 never executed
+    #####:   11:}
+        -:   12:
+function _Z5minimRSt6vectorIiSaIiEEii called 0 returned 0% blocks executed 0%
+    #####:   13:int minim(vector<int> &v, int low, int high) {
+    #####:   14:    int index = low;
+    #####:   15:    for(int i = low; i < high; ++i) {
+    %%%%%:   15-block  0
+    %%%%%:   15-block  1
+    %%%%%:   15-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   16:        if(v[index] > v[i])
+    %%%%%:   16-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   17:            index = i;
+    %%%%%:   17-block  0
+        -:   18:    }
+    #####:   19:    return index;
+    %%%%%:   19-block  0
+        -:   20:}
+        -:   21:
+function _Z13selectionSortRSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   22:void selectionSort(vector<int> &arr){
+        -:   23:    //Rellenar selection
+    #####:   24:    for (int i = 0; i < arr.size(); ++i) {
+    %%%%%:   24-block  0
+    %%%%%:   24-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   25:        int min = minim(arr, i, arr.size());
+    %%%%%:   25-block  0
+call    0 never executed
+call    1 never executed
+    #####:   26:        swap(arr, i, min);
+call    0 never executed
+        -:   27:    }
+    #####:   28:}
+        -:   29:
+function _Z6insertRSt6vectorIiSaIiEEii called 0 returned 0% blocks executed 0%
+    #####:   30:void insert(vector<int> &v, int j, int i) {
+    #####:   31:    vector<int> temp;
+    %%%%%:   31-block  0
+call    0 never executed
+    #####:   32:    for (int k = 0; k < v.size() + 1; ++k) {
+    %%%%%:   32-block  0
+    %%%%%:   32-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   33:        if(k < j)
+    %%%%%:   33-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   34:            temp.push_back(v[k]);
+    %%%%%:   34-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   35:        else if(k == j)
+    %%%%%:   35-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   36:            temp.push_back(v[i]);
+    %%%%%:   36-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   37:        else if(k - 1 != i)
+    %%%%%:   37-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   38:            temp.push_back(v[k - 1]);
+    %%%%%:   38-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:   39:    }
+    #####:   40:    v = temp;
+    %%%%%:   40-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   41:}
+    %%%%%:   41-block  0
+call    0 never executed
+    $$$$$:   41-block  1
+call    1 never executed
+        -:   42:
+function _Z13insertionSortRSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   43:void insertionSort(vector<int> &v){
+        -:   44:    //Rellenar insertion
+    #####:   45:    for (int i = 1; i < v.size(); ++i) {
+    %%%%%:   45-block  0
+    %%%%%:   45-block  1
+    %%%%%:   45-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   46:        for(int j = 0; j < i; ++j) {
+    %%%%%:   46-block  0
+    %%%%%:   46-block  1
+    %%%%%:   46-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   47:            if (v[0] > v[i])
+    %%%%%:   47-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   48:                insert(v, 0, i);
+    %%%%%:   48-block  0
+call    0 never executed
+    #####:   49:            else if(v[j] <= v[i] && v[j + 1] > v[i]) {
+    %%%%%:   49-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   49-block  1
+call    4 never executed
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   49-block  2
+    %%%%%:   49-block  3
+    %%%%%:   49-block  4
+branch  8 never executed
+branch  9 never executed
+    #####:   50:                insert(v, j + 1, i);
+    %%%%%:   50-block  0
+call    0 never executed
+        -:   51:            }
+        -:   52:        }
+        -:   53:    }
+    #####:   54:}
+        -:   55:
+function _Z5maximRSt6vectorIiSaIiEEii called 0 returned 0% blocks executed 0%
+    #####:   56:int maxim(vector<int> &v, int low, int high) {
+    #####:   57:    int index = low;
+    #####:   58:    for(int i = low; i < high; ++i) {
+    %%%%%:   58-block  0
+    %%%%%:   58-block  1
+    %%%%%:   58-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   59:        if(v[index] < v[i])
+    %%%%%:   59-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   60:            index = i;
+    %%%%%:   60-block  0
+        -:   61:    }
+    #####:   62:    return index;
+    %%%%%:   62-block  0
+        -:   63:}
+        -:   64:
+function _Z17selectionSortDescRSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   65:void selectionSortDesc(vector<int> &arr) {
+        -:   66:    //Rellenar selection
+    #####:   67:    for (int i = 0; i < arr.size(); ++i) {
+    %%%%%:   67-block  0
+    %%%%%:   67-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   68:        int max = maxim(arr, i, arr.size());
+    %%%%%:   68-block  0
+call    0 never executed
+call    1 never executed
+    #####:   69:        swap(arr, i, max);
+call    0 never executed
+        -:   70:    }
+    #####:   71:}
+        -:   72:
+function _Z13mostrarVectorSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   73:void mostrarVector(vector<int> v) {
+        -:   74:    // Dado un vector de enteros, muestra el vector por la salida estándar
+    #####:   75:    cout << "[";
+    %%%%%:   75-block  0
+call    0 never executed
+    #####:   76:    for (int i = 0; i < v.size() - 1; i ++) {
+    %%%%%:   76-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   77:        cout << v[i] << ", ";
+    %%%%%:   77-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+        -:   78:    }
+    #####:   79:    cout << v[v.size() - 1] << "]" << endl;
+    %%%%%:   79-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+call    4 never executed
+    #####:   80:}
+        -:   81:
+function _Z10bubbleSortRSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   82:void bubbleSort(vector<int> &v) {
+    #####:   83:    int i = 0, j;
+    #####:   84:    while(i < v.size() - 1) {
+    %%%%%:   84-block  0
+    %%%%%:   84-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   85:        j = 0;
+    #####:   86:        while(j < v.size() - 1) {
+    %%%%%:   86-block  0
+    %%%%%:   86-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   87:            if (v[j] > v[j + 1]) {
+    %%%%%:   87-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   88:                swap(v, j, j + 1);
+    %%%%%:   88-block  0
+call    0 never executed
+        -:   89:                //mostrarVector(v);
+        -:   90:            }
+    #####:   91:            j++;
+    %%%%%:   91-block  0
+        -:   92:        }
+    #####:   93:        i++;
+    %%%%%:   93-block  0
+        -:   94:    }
+    #####:   95:}
+        -:   96:
+function _Z12cocktailSortRSt6vectorIiSaIiEE called 0 returned 0% blocks executed 0%
+    #####:   97:void cocktailSort(vector<int> &v) {
+    #####:   98:    int i = 0, j;
+    #####:   99:    while(i < v.size()/2 - 1) {
+    %%%%%:   99-block  0
+    %%%%%:   99-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  100:        j = 0;
+    #####:  101:        while(j < v.size() - 1) {
+    %%%%%:  101-block  0
+    %%%%%:  101-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  102:            if (v[j] > v[j + 1]) {
+    %%%%%:  102-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  103:                swap(v, j, j + 1);
+    %%%%%:  103-block  0
+call    0 never executed
+        -:  104:                //mostrarVector(v);
+        -:  105:                }
+    #####:  106:            j++;
+    %%%%%:  106-block  0
+        -:  107:        }
+    #####:  108:        j = v.size() - 1;
+    %%%%%:  108-block  0
+call    0 never executed
+    #####:  109:        while(j > 0) {
+    %%%%%:  109-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  110:            if (v[j] < v[j - 1]) {
+    %%%%%:  110-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  111:                swap(v, j, j - 1);
+    %%%%%:  111-block  0
+call    0 never executed
+        -:  112:                //mostrarVector(v);
+        -:  113:                }
+    #####:  114:            j--;
+    %%%%%:  114-block  0
+        -:  115:        }
+    #####:  116:        i++;
+    %%%%%:  116-block  0
+        -:  117:    }
+    #####:  118:}
+        -:  119:
+function _Z17cantidadDistintosSt6vectorIiSaIiEEii called 14 returned 100% blocks executed 92%
+       14:  120:int cantidadDistintos(vector<int> s, int a, int b) {
+       14:  121:    vector<int> dist = {};
+       14:  121-block  0
+call    0 returned 14
+        -:  122:    bool esta;
+       63:  123:    for (int i = a; i <= b ; ++i) {
+       49:  123-block  0
+       63:  123-block  1
+branch  0 taken 49
+branch  1 taken 14 (fallthrough)
+       49:  124:        esta = false;
+      125:  125:        for (int j = 0; j < dist.size() && !esta; ++j) {
+       49:  125-block  0
+       76:  125-block  1
+      125:  125-block  2
+call    0 returned 125
+branch  1 taken 76 (fallthrough)
+branch  2 taken 49
+       76:  125-block  3
+branch  3 taken 76 (fallthrough)
+branch  4 taken 0
+       76:  125-block  4
+       49:  125-block  5
+      125:  125-block  6
+branch  5 taken 76
+branch  6 taken 49 (fallthrough)
+       76:  126:            if(s[i] == dist[j])
+       76:  126-block  0
+call    0 returned 76
+call    1 returned 76
+branch  2 taken 6 (fallthrough)
+branch  3 taken 70
+        6:  127:                esta = true;
+        6:  127-block  0
+        -:  128:        }
+       49:  129:        if (!esta)
+       49:  129-block  0
+branch  0 taken 43 (fallthrough)
+branch  1 taken 6
+       43:  130:            dist.push_back(s[i]);
+       43:  130-block  0
+call    0 returned 43
+call    1 returned 43
+branch  2 taken 43 (fallthrough)
+branch  3 taken 0 (throw)
+        -:  131:    }
+       28:  132:    return dist.size();
+       14:  132-block  0
+call    0 returned 14
+       14:  132-block  1
+       14:  133:}
+call    0 returned 14
+    $$$$$:  133-block  0
+call    1 never executed
+        -:  134:
+function _Z23indiceCantidadDistintosSt6vectorIiSaIiEE called 1 returned 100% blocks executed 76%
+        1:  135:int indiceCantidadDistintos(vector<int> s) {
+        1:  136:    int indice = -1;
+        8:  137:    for (int i = 0; i < s.size(); ++i) {
+        1:  137-block  0
+        7:  137-block  1
+        8:  137-block  2
+call    0 returned 8
+branch  1 taken 7
+branch  2 taken 1 (fallthrough)
+        7:  138:        if(cantidadDistintos(s, 0, i) == cantidadDistintos(s, i + 1, s.size() - 1))
+        7:  138-block  0
+call    0 returned 7
+call    1 returned 7
+branch  2 taken 7 (fallthrough)
+branch  3 taken 0 (throw)
+        7:  138-block  1
+call    4 returned 7
+call    5 returned 7
+branch  6 taken 7 (fallthrough)
+branch  7 taken 0 (throw)
+        7:  138-block  2
+call    8 returned 7
+branch  9 taken 7 (fallthrough)
+branch 10 taken 0 (throw)
+        7:  138-block  3
+call   11 returned 7
+call   12 returned 7
+branch 13 taken 1 (fallthrough)
+branch 14 taken 6
+    $$$$$:  138-block  4
+call   15 never executed
+    $$$$$:  138-block  5
+    $$$$$:  138-block  6
+call   16 never executed
+        1:  139:            indice = i;
+        1:  139-block  0
+        -:  140:    }
+        1:  141:    return indice;
+        1:  141-block  0
+        1:  141-block  1
+        -:  142:}
+        -:  143:
+        -:  144:
+        -:  145:
+function main called 1 returned 100% blocks executed 50%
+        1:  146:int main(int argc, char **argv) {
+        -:  147:
+        -:  148:   /* cout << "Implementando GTest!!" << endl;
+        -:  149:    testing::InitGoogleTest(&argc, argv);
+        -:  150:    return RUN_ALL_TESTS(); */
+        -:  151:
+        -:  152:    // medirTiemposBusquedas();
+        -:  153:    // vector <int> v = {3,5,7,3,9,4,6,8,2,2,9,3,4,7,1,8,4,5,7,4,2,3};
+        -:  154:    //vector <int> v = {9,3,7,2};
+        1:  155:    vector <int> v = {1,1,7,3,2,4,6};
+        1:  155-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+    $$$$$:  155-block  1
+    $$$$$:  155-block  2
+        1:  156:    int ind = indiceCantidadDistintos(v);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  156-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:  156-block  1
+call    6 returned 1
+    $$$$$:  156-block  2
+call    7 never executed
+    $$$$$:  156-block  3
+        1:  157:    cout << ind;
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:  158:
+        -:  159:    /*
+        -:  160:    mostrarVector(v);
+        -:  161:    cout << endl;
+        -:  162:    cocktailSort(v);
+        -:  163:    mostrarVector(v);
+        -:  164:/*
+        -:  165:    cout << minim(v, 2, v.size() - 1);
+        -:  166:
+        -:  167:    return 0;
+        -:  168:    */
+        1:  169:}
+        1:  169-block  0
+call    0 returned 1
+        1:  169-block  1
+    $$$$$:  169-block  2
+call    1 never executed

@@ -1,0 +1,6 @@
+# ninja log v5
+1	535	1663888385280464994	CMakeFiles/labo03.dir/src/entradaSalida.cpp.o	245734f1e91ef40f
+0	967	1663162424281466936	CMakeFiles/labo03.dir/src/generador.cpp.o	a0fa020c1234a504
+1	483	1663201684205556471	CMakeFiles/labo03.dir/src/vectores.cpp.o	eae066a484615a5b
+1	528	1663889270182149614	CMakeFiles/labo03.dir/src/main.cpp.o	defb5cd0df91f72c
+528	623	1663889270274143695	../labo03	1f8630a66ac3a246

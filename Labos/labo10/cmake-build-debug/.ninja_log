@@ -1,0 +1,15 @@
+# ninja log v5
+6	4082	1668004705327432317	CMakeFiles/Labo10.dir/tests/indicePicoTEST.cpp.o	adc49707e663640e
+2	812	1668014130551882972	CMakeFiles/Labo10.dir/tests/menorMasGrandeTEST.cpp.o	c973b77d34ac2bd4
+3	1372	1668727983779552734	CMakeFiles/Labo10.dir/main.cpp.o	ef1a462a880644d
+1	73	1680784532618243532	build.ninja	76f1ca04fa64ea05
+2	6675	1667998955671346346	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	92f144f6c3a15f98
+1621	4841	1668004706087441171	CMakeFiles/Labo10.dir/tests/encontrarRotadoTEST.cpp.o	fb3e47a0cb56dd4e
+3429	4498	1667998937387088085	lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	7380f399227cff24
+4082	7657	1668004708903473954	CMakeFiles/Labo10.dir/tests/puntoFijoTEST.cpp.o	efc68ac00efa8a75
+1372	1696	1668727984107555684	Labo10	59397fe2722930b8
+6676	6786	1667998955791347992	lib/googletest-master/googlemock/gtest/libgtestd.a	1408620272ddbe57
+6717	9104	1668004710351490794	CMakeFiles/Labo10.dir/tests/buscarTEST.cpp.o	7b7518b433dd0df6
+6787	6798	1667998955807348212	lib/googletest-master/googlemock/gtest/libgtest_maind.a	7bf5672b10eb1d67
+2	575	1668016820812684424	CMakeFiles/Labo10.dir/ejercicios.cpp.o	ed9c21ec25e2b462
+3646	6716	1668004707963463016	CMakeFiles/Labo10.dir/tests/masCercanoKTEST.cpp.o	dd4bbbee831236ba

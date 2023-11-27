@@ -1,0 +1,6 @@
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/exe01.dir
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/exe02.dir
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/exe03.dir
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/exe04.dir
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateo/Escritorio/LaboAlgo1/labo02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

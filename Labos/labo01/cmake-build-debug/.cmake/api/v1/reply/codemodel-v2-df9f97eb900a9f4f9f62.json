@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "labo01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe1-Debug-404229e4b0842127d12f.json",
+					"name" : "Exe1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe2-Debug-77f327b96b91242d3849.json",
+					"name" : "Exe2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe3-Debug-900c303dd7f845cc160e.json",
+					"name" : "Exe3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe4-Debug-052108ace8d00ca6b88d.json",
+					"name" : "Exe4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe5-Debug-14d727116c4ac03cc43a.json",
+					"name" : "Exe5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe6-Debug-ba3b200e9ca48c169f08.json",
+					"name" : "Exe6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe7-Debug-b224bd52fac3e386aafe.json",
+					"name" : "Exe7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Exe8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Exe8-Debug-7ea90f4cb3cf791f9c82.json",
+					"name" : "Exe8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mateo/Escritorio/LaboAlgo1/labo01/cmake-build-debug",
+		"source" : "/home/mateo/Escritorio/LaboAlgo1/labo01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,48 @@
+\documentclass{article}
+\input{Algo1Macros}
+\usepackage{caratula} 
+
+\begin{document}
+
+%Caratula
+\titulo{Laboratorio 01 - Latex}
+\subtitulo{Algo 1}
+\fecha{03/09/2022}
+\materia{Algoritmos y Estructuras de datos 1}
+\integrante{Schiro, Mateo}{657/22}{mateo.schiro8@gmail.com}
+
+\maketitle
+%Creación de indice
+\tableofcontents
+\newpage
+
+\section*{Ejercicios Latex - Laboratorio Algo 1}
+
+\subsection*{Ejercicio 1}
+
+El factorial de un entero positivo n se define como: $ n! = \prod_{i = 1}^n i $  \par
+\medskip El factorial de 5 es: $ 5! = \prod_{i = 1}^5 i = 1 \times 2 \times 3 \times 4 \times 5 = 120 $
+
+\section*{Especificación}
+
+\subsection*{Ejercicio 2}
+
+\begin{proc}{factorial}{\In n: \ent, \Out result: \ent}{}
+\pre{n \geq 0}
+\post{(n = 0 \implica result = 1) $ $ \wedge $ $ (n > 0 \implica result = \prod_{k = 1}^n k)}
+\end{proc}
+
+\subsection*{Ejercicio 3}
+
+\pred{todosPrimos}{s: \TLista \ent}{\\
+(\forall i:\ent)(0 \leq i < \longitud s \implicaLuego esPrimo(s[i]))\\
+}
+
+\medskip \pred{alMenosUnPrimo}{s: \TLista \ent}{
+(\exists i:\ent)(0 \leq i < \longitud s \yLuego esPrimo(s[i]))}
+
+\subsection*{Ejercicio 4}
+
+aux sumaPrimos (s: \TLista \ent) : \ent = $\sum_{i = 0}^ \longitud s $ if $esPrimo(s[i])$ then $s[i]$ else 0 fi;
+
+\end{document}

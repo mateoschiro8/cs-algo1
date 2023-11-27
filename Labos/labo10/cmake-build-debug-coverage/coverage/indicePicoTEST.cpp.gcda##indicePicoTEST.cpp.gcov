@@ -1,0 +1,556 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/tests/indicePicoTEST.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/indicePicoTEST.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/indicePicoTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../ejercicios.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:
+        -:    4:
+    #####:    5:TEST(indicePico, unElemento){
+    #####:    6:	vector<int> v = {8};
+    #####:    7:	int res =  indicePico(v);
+    #####:    8:	ASSERT_EQ(0, res);
+    #####:    9:}
+------------------
+_ZN26indicePico_unElemento_Test8TestBodyEv:
+function _ZN26indicePico_unElemento_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:    5:TEST(indicePico, unElemento){
+    #####:    6:	vector<int> v = {8};
+    %%%%%:    6-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    6-block  1
+    $$$$$:    6-block  2
+    #####:    7:	int res =  indicePico(v);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    7-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    7-block  1
+call    6 never executed
+    $$$$$:    7-block  2
+call    7 never executed
+    $$$$$:    7-block  3
+    #####:    8:	ASSERT_EQ(0, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    8-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    8-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:    8-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:    8-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:    8-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:    8-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:    8-block  6
+    %%%%%:    8-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:    8-block  8
+    $$$$$:    8-block  9
+call   23 never executed
+    $$$$$:    8-block 10
+    $$$$$:    8-block 11
+call   24 never executed
+    $$$$$:    8-block 12
+    $$$$$:    8-block 13
+call   25 never executed
+    #####:    9:}
+    %%%%%:    9-block  0
+    %%%%%:    9-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:    9-block  2
+call    3 never executed
+------------------
+_ZN26indicePico_unElemento_TestC2Ev:
+function _ZN26indicePico_unElemento_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:    5:TEST(indicePico, unElemento){
+    %%%%%:    5-block  0
+call    0 never executed
+------------------
+        -:   10:
+    #####:   11:TEST(indicePico, bordes){
+    #####:   12:	vector<int> v = {8,7,9,10};
+    #####:   13:	bool res =  (0==indicePico(v)) || (3==indicePico(v));
+    #####:   14:	ASSERT_TRUE(res);
+    #####:   15:}
+------------------
+_ZN22indicePico_bordes_Test8TestBodyEv:
+function _ZN22indicePico_bordes_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   11:TEST(indicePico, bordes){
+    #####:   12:	vector<int> v = {8,7,9,10};
+    %%%%%:   12-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   12-block  1
+    $$$$$:   12-block  2
+    #####:   13:	bool res =  (0==indicePico(v)) || (3==indicePico(v));
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   13-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   13-block  1
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   13-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:   13-block  3
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   13-block  4
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   13-block  5
+    %%%%%:   13-block  6
+    %%%%%:   13-block  7
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   13-block  8
+call   18 never executed
+    %%%%%:   13-block  9
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   13-block 10
+call   21 never executed
+    $$$$$:   13-block 11
+branch 22 never executed
+branch 23 never executed
+    $$$$$:   13-block 12
+call   24 never executed
+    $$$$$:   13-block 13
+    $$$$$:   13-block 14
+branch 25 never executed
+branch 26 never executed
+    $$$$$:   13-block 15
+call   27 never executed
+    $$$$$:   13-block 16
+    #####:   14:	ASSERT_TRUE(res);
+    %%%%%:   14-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   14-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   14-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   14-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   14-block  4
+call   12 never executed
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   14-block  5
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   14-block  6
+call   19 never executed
+call   20 never executed
+call   21 never executed
+    %%%%%:   14-block  7
+    %%%%%:   14-block  8
+call   22 never executed
+branch 23 never executed
+branch 24 never executed
+    $$$$$:   14-block  9
+call   25 never executed
+    $$$$$:   14-block 10
+    $$$$$:   14-block 11
+call   26 never executed
+    $$$$$:   14-block 12
+    $$$$$:   14-block 13
+call   27 never executed
+    $$$$$:   14-block 14
+    $$$$$:   14-block 15
+call   28 never executed
+    #####:   15:}
+    %%%%%:   15-block  0
+    %%%%%:   15-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   15-block  2
+call    3 never executed
+------------------
+_ZN22indicePico_bordes_TestC2Ev:
+function _ZN22indicePico_bordes_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   11:TEST(indicePico, bordes){
+    %%%%%:   11-block  0
+call    0 never executed
+------------------
+        -:   16:
+    #####:   17:TEST(indicePico, mitad){
+    #####:   18:	vector<int> v = {1,2,3,4,3,2,1};
+    #####:   19:	int res = indicePico(v);
+    #####:   20:	ASSERT_EQ(3, res);
+    #####:   21:}
+------------------
+_ZN21indicePico_mitad_Test8TestBodyEv:
+function _ZN21indicePico_mitad_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   17:TEST(indicePico, mitad){
+    #####:   18:	vector<int> v = {1,2,3,4,3,2,1};
+    %%%%%:   18-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   18-block  1
+    $$$$$:   18-block  2
+    #####:   19:	int res = indicePico(v);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   19-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   19-block  1
+call    6 never executed
+    $$$$$:   19-block  2
+call    7 never executed
+    $$$$$:   19-block  3
+    #####:   20:	ASSERT_EQ(3, res);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   20-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   20-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   20-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   20-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   20-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   20-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   20-block  6
+    %%%%%:   20-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   20-block  8
+    $$$$$:   20-block  9
+call   23 never executed
+    $$$$$:   20-block 10
+    $$$$$:   20-block 11
+call   24 never executed
+    $$$$$:   20-block 12
+    $$$$$:   20-block 13
+call   25 never executed
+    #####:   21:}
+    %%%%%:   21-block  0
+    %%%%%:   21-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   21-block  2
+call    3 never executed
+------------------
+_ZN21indicePico_mitad_TestC2Ev:
+function _ZN21indicePico_mitad_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   17:TEST(indicePico, mitad){
+    %%%%%:   17-block  0
+call    0 never executed
+------------------
+        -:   22:
+    #####:   23:TEST(indicePico, dosIguales){
+    #####:   24:	vector<int> v = {1,2,3,4,4,2,1};
+    #####:   25:	bool res =  (4==indicePico(v)) || (3==indicePico(v));
+    #####:   26:	ASSERT_TRUE(res);
+    #####:   27:}
+------------------
+_ZN26indicePico_dosIguales_Test8TestBodyEv:
+function _ZN26indicePico_dosIguales_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   23:TEST(indicePico, dosIguales){
+    #####:   24:	vector<int> v = {1,2,3,4,4,2,1};
+    %%%%%:   24-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   24-block  1
+    $$$$$:   24-block  2
+    #####:   25:	bool res =  (4==indicePico(v)) || (3==indicePico(v));
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   25-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   25-block  1
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   25-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:   25-block  3
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   25-block  4
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   25-block  5
+    %%%%%:   25-block  6
+    %%%%%:   25-block  7
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   25-block  8
+call   18 never executed
+    %%%%%:   25-block  9
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   25-block 10
+call   21 never executed
+    $$$$$:   25-block 11
+branch 22 never executed
+branch 23 never executed
+    $$$$$:   25-block 12
+call   24 never executed
+    $$$$$:   25-block 13
+    $$$$$:   25-block 14
+branch 25 never executed
+branch 26 never executed
+    $$$$$:   25-block 15
+call   27 never executed
+    $$$$$:   25-block 16
+    #####:   26:	ASSERT_TRUE(res);
+    %%%%%:   26-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   26-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   26-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   26-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   26-block  4
+call   12 never executed
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   26-block  5
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   26-block  6
+call   19 never executed
+call   20 never executed
+call   21 never executed
+    %%%%%:   26-block  7
+    %%%%%:   26-block  8
+call   22 never executed
+branch 23 never executed
+branch 24 never executed
+    $$$$$:   26-block  9
+call   25 never executed
+    $$$$$:   26-block 10
+    $$$$$:   26-block 11
+call   26 never executed
+    $$$$$:   26-block 12
+    $$$$$:   26-block 13
+call   27 never executed
+    $$$$$:   26-block 14
+    $$$$$:   26-block 15
+call   28 never executed
+    #####:   27:}
+    %%%%%:   27-block  0
+    %%%%%:   27-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   27-block  2
+call    3 never executed
+------------------
+_ZN26indicePico_dosIguales_TestC2Ev:
+function _ZN26indicePico_dosIguales_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   23:TEST(indicePico, dosIguales){
+    %%%%%:   23-block  0
+call    0 never executed
+------------------
+        -:   28:
+    #####:   29:TEST(indicePico, dosPicos){
+    #####:   30:	vector<int> v = {1,2,3,4,3,5,1};
+    #####:   31:	bool res =  (3==indicePico(v)) || (5==indicePico(v));
+    #####:   32:	ASSERT_TRUE(res);
+    #####:   33:}
+------------------
+_ZN24indicePico_dosPicos_Test8TestBodyEv:
+function _ZN24indicePico_dosPicos_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   29:TEST(indicePico, dosPicos){
+    #####:   30:	vector<int> v = {1,2,3,4,3,5,1};
+    %%%%%:   30-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   30-block  1
+    $$$$$:   30-block  2
+    #####:   31:	bool res =  (3==indicePico(v)) || (5==indicePico(v));
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   31-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   31-block  1
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   31-block  2
+call    8 never executed
+branch  9 never executed
+branch 10 never executed
+    %%%%%:   31-block  3
+call   11 never executed
+branch 12 never executed
+branch 13 never executed
+    %%%%%:   31-block  4
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   31-block  5
+    %%%%%:   31-block  6
+    %%%%%:   31-block  7
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   31-block  8
+call   18 never executed
+    %%%%%:   31-block  9
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   31-block 10
+call   21 never executed
+    $$$$$:   31-block 11
+branch 22 never executed
+branch 23 never executed
+    $$$$$:   31-block 12
+call   24 never executed
+    $$$$$:   31-block 13
+    $$$$$:   31-block 14
+branch 25 never executed
+branch 26 never executed
+    $$$$$:   31-block 15
+call   27 never executed
+    $$$$$:   31-block 16
+    #####:   32:	ASSERT_TRUE(res);
+    %%%%%:   32-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   32-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   32-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   32-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   32-block  4
+call   12 never executed
+call   13 never executed
+branch 14 never executed
+branch 15 never executed
+    %%%%%:   32-block  5
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   32-block  6
+call   19 never executed
+call   20 never executed
+call   21 never executed
+    %%%%%:   32-block  7
+    %%%%%:   32-block  8
+call   22 never executed
+branch 23 never executed
+branch 24 never executed
+    $$$$$:   32-block  9
+call   25 never executed
+    $$$$$:   32-block 10
+    $$$$$:   32-block 11
+call   26 never executed
+    $$$$$:   32-block 12
+    $$$$$:   32-block 13
+call   27 never executed
+    $$$$$:   32-block 14
+    $$$$$:   32-block 15
+call   28 never executed
+    #####:   33:}
+    %%%%%:   33-block  0
+    %%%%%:   33-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   33-block  2
+call    3 never executed
+------------------
+_ZN24indicePico_dosPicos_TestC2Ev:
+function _ZN24indicePico_dosPicos_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   29:TEST(indicePico, dosPicos){
+    %%%%%:   29-block  0
+call    0 never executed
+------------------

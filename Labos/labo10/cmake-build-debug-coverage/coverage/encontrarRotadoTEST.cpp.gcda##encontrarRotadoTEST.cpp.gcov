@@ -1,0 +1,616 @@
+        -:    0:Source:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/tests/encontrarRotadoTEST.cpp
+        -:    0:Graph:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/encontrarRotadoTEST.cpp.gcno
+        -:    0:Data:/home/mateo/Escritorio/Carrera/LaboAlgo1/labo10/cmake-build-debug-coverage/CMakeFiles/Labo10.dir/tests/encontrarRotadoTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../ejercicios.h"
+        -:    2:#include "gtest/gtest.h"
+        -:    3:
+    #####:    4:TEST(encontrarRotado, unElemento){
+    #####:    5:	vector<int> v = {2};
+    #####:    6:	int index = encontrarRotado(v, 2);
+    #####:    7:	ASSERT_EQ(0, index);
+    #####:    8:}
+------------------
+_ZN31encontrarRotado_unElemento_Test8TestBodyEv:
+function _ZN31encontrarRotado_unElemento_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:    4:TEST(encontrarRotado, unElemento){
+    #####:    5:	vector<int> v = {2};
+    %%%%%:    5-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:    5-block  1
+    $$$$$:    5-block  2
+    #####:    6:	int index = encontrarRotado(v, 2);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    6-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    6-block  1
+call    6 never executed
+    $$$$$:    6-block  2
+call    7 never executed
+    $$$$$:    6-block  3
+    #####:    7:	ASSERT_EQ(0, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:    7-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:    7-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:    7-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:    7-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:    7-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:    7-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:    7-block  6
+    %%%%%:    7-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:    7-block  8
+    $$$$$:    7-block  9
+call   23 never executed
+    $$$$$:    7-block 10
+    $$$$$:    7-block 11
+call   24 never executed
+    $$$$$:    7-block 12
+    $$$$$:    7-block 13
+call   25 never executed
+    #####:    8:}
+    %%%%%:    8-block  0
+    %%%%%:    8-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:    8-block  2
+call    3 never executed
+------------------
+_ZN31encontrarRotado_unElemento_TestC2Ev:
+function _ZN31encontrarRotado_unElemento_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:    4:TEST(encontrarRotado, unElemento){
+    %%%%%:    4-block  0
+call    0 never executed
+------------------
+        -:    9:
+    #####:   10:TEST(encontrarRotado, sinElemento1){
+    #####:   11:	vector<int> v = {2};
+    #####:   12:	int index = encontrarRotado(v, 0);
+    #####:   13:	ASSERT_EQ(-1, index);
+    #####:   14:}
+------------------
+_ZN33encontrarRotado_sinElemento1_Test8TestBodyEv:
+function _ZN33encontrarRotado_sinElemento1_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   10:TEST(encontrarRotado, sinElemento1){
+    #####:   11:	vector<int> v = {2};
+    %%%%%:   11-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   11-block  1
+    $$$$$:   11-block  2
+    #####:   12:	int index = encontrarRotado(v, 0);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   12-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   12-block  1
+call    6 never executed
+    $$$$$:   12-block  2
+call    7 never executed
+    $$$$$:   12-block  3
+    #####:   13:	ASSERT_EQ(-1, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   13-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   13-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   13-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   13-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   13-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   13-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   13-block  6
+    %%%%%:   13-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   13-block  8
+    $$$$$:   13-block  9
+call   23 never executed
+    $$$$$:   13-block 10
+    $$$$$:   13-block 11
+call   24 never executed
+    $$$$$:   13-block 12
+    $$$$$:   13-block 13
+call   25 never executed
+    #####:   14:}
+    %%%%%:   14-block  0
+    %%%%%:   14-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   14-block  2
+call    3 never executed
+------------------
+_ZN33encontrarRotado_sinElemento1_TestC2Ev:
+function _ZN33encontrarRotado_sinElemento1_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   10:TEST(encontrarRotado, sinElemento1){
+    %%%%%:   10-block  0
+call    0 never executed
+------------------
+        -:   15:
+    #####:   16:TEST(encontrarRotado, sinElemento2){
+    #####:   17:	vector<int> v = {21,42,78,152};
+    #####:   18:	int index = encontrarRotado(v, 10);
+    #####:   19:	ASSERT_EQ(-1, index);
+    #####:   20:}
+------------------
+_ZN33encontrarRotado_sinElemento2_Test8TestBodyEv:
+function _ZN33encontrarRotado_sinElemento2_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   16:TEST(encontrarRotado, sinElemento2){
+    #####:   17:	vector<int> v = {21,42,78,152};
+    %%%%%:   17-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   17-block  1
+    $$$$$:   17-block  2
+    #####:   18:	int index = encontrarRotado(v, 10);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   18-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   18-block  1
+call    6 never executed
+    $$$$$:   18-block  2
+call    7 never executed
+    $$$$$:   18-block  3
+    #####:   19:	ASSERT_EQ(-1, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   19-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   19-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   19-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   19-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   19-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   19-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   19-block  6
+    %%%%%:   19-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   19-block  8
+    $$$$$:   19-block  9
+call   23 never executed
+    $$$$$:   19-block 10
+    $$$$$:   19-block 11
+call   24 never executed
+    $$$$$:   19-block 12
+    $$$$$:   19-block 13
+call   25 never executed
+    #####:   20:}
+    %%%%%:   20-block  0
+    %%%%%:   20-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   20-block  2
+call    3 never executed
+------------------
+_ZN33encontrarRotado_sinElemento2_TestC2Ev:
+function _ZN33encontrarRotado_sinElemento2_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   16:TEST(encontrarRotado, sinElemento2){
+    %%%%%:   16-block  0
+call    0 never executed
+------------------
+        -:   21:
+    #####:   22:TEST(encontrarRotado, sinRotarAsc){
+    #####:   23:	vector<int> v = {2,5,8,9,11,15};
+    #####:   24:	int index = encontrarRotado(v, 8);
+    #####:   25:	ASSERT_EQ(2, index);
+    #####:   26:}
+------------------
+_ZN32encontrarRotado_sinRotarAsc_Test8TestBodyEv:
+function _ZN32encontrarRotado_sinRotarAsc_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   22:TEST(encontrarRotado, sinRotarAsc){
+    #####:   23:	vector<int> v = {2,5,8,9,11,15};
+    %%%%%:   23-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   23-block  1
+    $$$$$:   23-block  2
+    #####:   24:	int index = encontrarRotado(v, 8);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   24-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   24-block  1
+call    6 never executed
+    $$$$$:   24-block  2
+call    7 never executed
+    $$$$$:   24-block  3
+    #####:   25:	ASSERT_EQ(2, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   25-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   25-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   25-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   25-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   25-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   25-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   25-block  6
+    %%%%%:   25-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   25-block  8
+    $$$$$:   25-block  9
+call   23 never executed
+    $$$$$:   25-block 10
+    $$$$$:   25-block 11
+call   24 never executed
+    $$$$$:   25-block 12
+    $$$$$:   25-block 13
+call   25 never executed
+    #####:   26:}
+    %%%%%:   26-block  0
+    %%%%%:   26-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   26-block  2
+call    3 never executed
+------------------
+_ZN32encontrarRotado_sinRotarAsc_TestC2Ev:
+function _ZN32encontrarRotado_sinRotarAsc_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   22:TEST(encontrarRotado, sinRotarAsc){
+    %%%%%:   22-block  0
+call    0 never executed
+------------------
+        -:   27:
+        -:   28:
+    #####:   29:TEST(encontrarRotado, rotadoAlPrincipio){
+    #####:   30:	vector<int> v = {15,2,4,13,14};
+    #####:   31:	int index = encontrarRotado(v, 15);
+    #####:   32:	ASSERT_EQ(0, index);
+    #####:   33:}
+------------------
+_ZN38encontrarRotado_rotadoAlPrincipio_Test8TestBodyEv:
+function _ZN38encontrarRotado_rotadoAlPrincipio_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   29:TEST(encontrarRotado, rotadoAlPrincipio){
+    #####:   30:	vector<int> v = {15,2,4,13,14};
+    %%%%%:   30-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   30-block  1
+    $$$$$:   30-block  2
+    #####:   31:	int index = encontrarRotado(v, 15);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   31-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   31-block  1
+call    6 never executed
+    $$$$$:   31-block  2
+call    7 never executed
+    $$$$$:   31-block  3
+    #####:   32:	ASSERT_EQ(0, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   32-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   32-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   32-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   32-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   32-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   32-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   32-block  6
+    %%%%%:   32-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   32-block  8
+    $$$$$:   32-block  9
+call   23 never executed
+    $$$$$:   32-block 10
+    $$$$$:   32-block 11
+call   24 never executed
+    $$$$$:   32-block 12
+    $$$$$:   32-block 13
+call   25 never executed
+    #####:   33:}
+    %%%%%:   33-block  0
+    %%%%%:   33-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   33-block  2
+call    3 never executed
+------------------
+_ZN38encontrarRotado_rotadoAlPrincipio_TestC2Ev:
+function _ZN38encontrarRotado_rotadoAlPrincipio_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   29:TEST(encontrarRotado, rotadoAlPrincipio){
+    %%%%%:   29-block  0
+call    0 never executed
+------------------
+        -:   34:
+    #####:   35:TEST(encontrarRotado, rotadoAlFinal){
+    #####:   36:	vector<int> v = {20,25,28,32,60,2};
+    #####:   37:	int index = encontrarRotado(v, 2);
+    #####:   38:	ASSERT_EQ(5, index);
+    #####:   39:}
+------------------
+_ZN34encontrarRotado_rotadoAlFinal_Test8TestBodyEv:
+function _ZN34encontrarRotado_rotadoAlFinal_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   35:TEST(encontrarRotado, rotadoAlFinal){
+    #####:   36:	vector<int> v = {20,25,28,32,60,2};
+    %%%%%:   36-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   36-block  1
+    $$$$$:   36-block  2
+    #####:   37:	int index = encontrarRotado(v, 2);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   37-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   37-block  1
+call    6 never executed
+    $$$$$:   37-block  2
+call    7 never executed
+    $$$$$:   37-block  3
+    #####:   38:	ASSERT_EQ(5, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   38-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   38-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   38-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   38-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   38-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   38-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   38-block  6
+    %%%%%:   38-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   38-block  8
+    $$$$$:   38-block  9
+call   23 never executed
+    $$$$$:   38-block 10
+    $$$$$:   38-block 11
+call   24 never executed
+    $$$$$:   38-block 12
+    $$$$$:   38-block 13
+call   25 never executed
+    #####:   39:}
+    %%%%%:   39-block  0
+    %%%%%:   39-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   39-block  2
+call    3 never executed
+------------------
+_ZN34encontrarRotado_rotadoAlFinal_TestC2Ev:
+function _ZN34encontrarRotado_rotadoAlFinal_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   35:TEST(encontrarRotado, rotadoAlFinal){
+    %%%%%:   35-block  0
+call    0 never executed
+------------------
+        -:   40:
+    #####:   41:TEST(encontrarRotado, rotadoMedio){
+    #####:   42:	vector<int> v = {15,16,7,9,11,14};
+    #####:   43:	int index = encontrarRotado(v, 9);
+    #####:   44:	ASSERT_EQ(3, index);
+    #####:   45:}
+------------------
+_ZN32encontrarRotado_rotadoMedio_Test8TestBodyEv:
+function _ZN32encontrarRotado_rotadoMedio_Test8TestBodyEv called 0 returned 0% blocks executed 0%
+    #####:   41:TEST(encontrarRotado, rotadoMedio){
+    #####:   42:	vector<int> v = {15,16,7,9,11,14};
+    %%%%%:   42-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   42-block  1
+    $$$$$:   42-block  2
+    #####:   43:	int index = encontrarRotado(v, 9);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   43-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   43-block  1
+call    6 never executed
+    $$$$$:   43-block  2
+call    7 never executed
+    $$$$$:   43-block  3
+    #####:   44:	ASSERT_EQ(3, index);
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   44-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   44-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   44-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   44-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   44-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   44-block  5
+call   18 never executed
+call   19 never executed
+    %%%%%:   44-block  6
+    %%%%%:   44-block  7
+call   20 never executed
+branch 21 never executed
+branch 22 never executed
+    $$$$$:   44-block  8
+    $$$$$:   44-block  9
+call   23 never executed
+    $$$$$:   44-block 10
+    $$$$$:   44-block 11
+call   24 never executed
+    $$$$$:   44-block 12
+    $$$$$:   44-block 13
+call   25 never executed
+    #####:   45:}
+    %%%%%:   45-block  0
+    %%%%%:   45-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   45-block  2
+call    3 never executed
+------------------
+_ZN32encontrarRotado_rotadoMedio_TestC2Ev:
+function _ZN32encontrarRotado_rotadoMedio_TestC2Ev called 0 returned 0% blocks executed 0%
+    #####:   41:TEST(encontrarRotado, rotadoMedio){
+    %%%%%:   41-block  0
+call    0 never executed
+------------------
