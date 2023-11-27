@@ -1,2 +1,1 @@
-# cs-algo1
-Algoritmos y estructuras de datos 1 - 2c2022
+Repo de algoritmos y estructuras de datos 1 - 2c2022
